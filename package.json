@@ -1,0 +1,34 @@
+{
+  "name": "react-native-markdown-transformer",
+  "version": "0.1.0",
+  "description": "react native markdown transformer",
+  "main": "index.js",
+  "repository": "https://github.com/roadmanfong/react-native-markdown-transformer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "lint": "eslint"
+  },
+  "author": "Steven Fong <waneblade@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^7.3.2"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.45.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.1.2"
+  }
+}
