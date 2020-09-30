@@ -1,5 +1,7 @@
 # React Native Markdown Transformer
 
+[![Build Status](https://travis-ci.org/roadmanfong/react-native-markdown-transformer.svg?branch=master)](https://travis-ci.org/roadmanfong/react-native-markdown-transformer) [![npm version](https://img.shields.io/npm/v/react-native-markdown-transformer.svg?style=flat-square)](https://www.npmjs.com/package/react-native-markdown-transformer) [![npm downloads](https://img.shields.io/npm/dm/react-native-markdown-transformer.svg?style=flat-square)](https://www.npmjs.com/package/react-native-markdown-transformer)
+
 ## Usage
 
 ```js
