@@ -33,7 +33,7 @@ module.exports.transform = function (src, filename, options) {
 
   if (filename.endsWith('md')) {
     return upstreamTransformer.transform({
-      src: `module.exports =  \`${src}\``,
+      src: `module.exports =  "${ src.replace(/\n/g, '\\n') }"`,
       filename,
       options,
     });
